@@ -1,0 +1,145 @@
+body{
+	margin: 0px;
+	background-color: #edeceb;
+}
+.container{
+	width: 100%;
+	height: auto;
+	margin: 0px;
+	padding: 0px;
+	
+}
+.pic{
+	background-image: url("bg1.jpeg");
+	width: 100%;
+	height: 700px;
+	background-size: 100% 100%;
+}
+.header{
+	width: 65%;
+	height: 130px;
+}
+	.logo{
+		width: 15%;
+		height: 130px;
+		float: left;
+		margin-left: -10%;
+	}
+		.img{
+			padding: 5px 20px;
+		}
+	.menu{
+		width: 70%;
+		height: 130px;
+		float: left;
+		font-family: "Times New Roman";
+		margin-left: 9%;
+	}
+		ul{
+			margin: 0px;
+			padding-top: 30px;
+			padding-left: 0px;
+			list-style: none;
+
+		}
+			ul li{
+				display: inline-block;	
+
+			}
+				ul li a{
+					color: black;
+					text-decoration: none;
+					font-size: 25px;
+					padding-left: 70px;
+					font-weight: bold;
+
+					}
+				.h:hover{	
+					font-size: 26px;
+					font-weight: bolder;
+					text-decoration: underline;
+					text-shadow: floralwhite 1px 1px 10px;
+				}
+	.club{
+		width: 80%;
+		height: 250px;
+		margin-top: 28%;
+	}
+		.clubs{
+			width: 25%;
+			height: 100%;
+			float: left;
+		}
+			.clubs:hover{
+				filter: grayscale(10);
+			}
+.pic2{
+	height: 550px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-image: url("ic.jpeg");
+	background-size: 100% 100%;
+}
+	.para{
+		text-align: justify;
+		background-color: rgb(0, 0, 0,0.6);
+		width: 80%;
+		color: white;
+		font-family: "Calibri";
+	}
+	p{
+		margin-top: 0px;
+		padding: 150px 80px 78px;
+		font-size: 20px;
+	}
+.club1{
+	height: 400px;
+	width: 100%;
+	font-size: 20px;
+	font-family: "Times New Roman";
+}
+	.para1{
+		float: left;
+		width: 60%;
+		height: 95%;
+		padding-left: 110px;
+		text-align: justify;
+		padding-top:20px;
+	}
+		h2{
+			margin-top: 0px;
+		}
+	.img1{
+		float: left;
+		height: 100%;
+		width: 30%;
+		padding-left: 40px;
+		padding-top: 40px;
+	}
+.club2{
+	height: 400px;
+	width: 100%;
+	font-size: 20px;
+	font-family: "Times New Roman";
+}
+	.img2{
+		float: left;
+		height: 100%;
+		width: 30%;
+		padding-left: 110px;
+		padding-top: 20px;
+		padding-right: 0px;
+
+	}
+	.para2{
+		float: left;
+		width: 60%;
+		height: 95%;
+		padding-left: 0px;
+		text-align: justify;
+		padding-top:0px;
+		margin-left: -45px;
+	}
+		.border{
+			border: 2px solid black;
+		}
